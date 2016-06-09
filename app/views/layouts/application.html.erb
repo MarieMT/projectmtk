@@ -29,7 +29,19 @@
   <hr />
   <br class="clear" />
 
-<%= yield %>
+<div class="container">
+  <%= yield %>
+<div>
 
-</body>
-</html>
+<div class="footer">
+    <div class="container">
+        <div class="col-xs-6">
+            <%= link_to "This isnt't enough, I need more", "#" , class: 'next-quote' %>
+        </div>
+        <div class="col-xs-6 footer-blurb" >
+            Proudly created in London by  Marie<br />
+            Want to build your own Splurty Web App - <a href="http://thefirehoseproject.com">Learn how to code
+          </div>
+        </div>
+      </div>
+
